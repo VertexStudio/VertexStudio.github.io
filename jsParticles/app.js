@@ -73,9 +73,9 @@ $(document).ready(function(){
         "opacity": 0.4,
         "width": 1
       },
-      "move": {
+      "move": { /*velocidad de las particulas */
         "enable": true,
-        "speed": 6,
+        "speed": 3,
         "direction": "none",
         "random": false,
         "straight": false,
