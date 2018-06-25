@@ -562,7 +562,7 @@ var SEMICOLON = SEMICOLON || {};
 
 			if( !$().animsition ) {
 				$body.addClass('no-transition');
-				/*console.log('pageTransition: Animsition not Defined.');*/
+				console.log('pageTransition: Animsition not Defined.');
 				return true;
 			}
 
