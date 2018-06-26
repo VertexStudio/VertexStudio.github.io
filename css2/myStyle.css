@@ -35,11 +35,6 @@ background-size: cover;
 }
 
 /*-------------------FUENTE DE LA LETRA----------------------------*/
-body {
-  font-family: 'Raleway', sans-serif;
-}
-
-
 
 .borde{
    padding-top: 14px;
@@ -49,6 +44,22 @@ body {
 .imagen{
 	height: 100%;
 	width: 100%;
+}
+
+.letrasR{
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-weight200{
+  font-weight: 200;
+}
+
+.font-weight100{
+  font-weight: 200;
+}
+
+.font-weight900{
+  font-weight: 900;
 }
 
 
@@ -145,6 +156,7 @@ body {
 /*##############GENERAL 1#####################*/
 .letras{
 	font-size: 33px;
+
 }
 
 @media (max-width: 732px){
