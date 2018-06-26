@@ -1,3 +1,5 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+
 .imagenR{
  background: url(../images/vertex/1.png) no-repeat center center ;
 -webkit-background-size: cover;
