@@ -22,10 +22,10 @@ $(document).ready(function(){
   {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 70,
         "density": {
           "enable": true,
-          "value_area": 700
+          "value_area": 900
         }
       },
       "color": {
