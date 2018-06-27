@@ -194,7 +194,7 @@ background-size: cover;
 
 @media (max-width: 576px){
 .letras2{
-   font-size: 15px;
+   font-size: 14px;
 }
 }
 
@@ -207,26 +207,39 @@ background-size: cover;
 
 
 .letras3{
-  font-size: 27px;
+  font-size: 25px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 732px){
     
 .letras3{
-    font-size: 14px;
-}
-
-@media (max-width: 640px){
-    
-.letras3{
-    font-size: 12px;
+    font-size: 18px;
 }
 }
 
 @media (max-width: 576px){
 .letras3{
-   font-size: 10px;
+   font-size: 14px;
 }
+}
+
+@media (max-width: 360px){
+.letras3{
+   font-size: 12px;
+}
+}
+
+.driveColor1{
+  color: #888886;
+}
+
+.driveColor2{
+  color: #fff;
+}
+
+.drivePadding{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /*##############GENERAL 1#####################*/
