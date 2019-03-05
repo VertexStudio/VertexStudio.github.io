@@ -36,16 +36,17 @@
 .imgdesktop{
     /*background-image: url('images/vertex/00Isotipo_VertexStudio_Version2_4.png');*/
     background-image: url('images/vertex/isologo-min.png');
-    width: 50%;
-    height:50%;
     background-repeat: no-repeat;
     background-position: center center;
+    /*width: 50%;
+    height:50%;
+    
     position:  relative !important;
     background-size: contain;
     margin :  0% !important;
     display: inline-block;
     max-width: 200px;
-    max-height: 200px;
+    max-height: 200px;*/
 }
 
 .img1{
@@ -58,10 +59,32 @@
   }
 
   .Banner{
-    background-color: #eee;
+    background-color: #eee !important;
   }
 
   .background{
     background-color: #1b191d ;
+  }
+
+  .imgVertex{
+    width: 30%;
+}
+.imgArrow{
+    width: 5%;
+}
+.txtBn{
+    font-size: 20px;
+}
+
+
+  @media (max-width: 1000px){
+      .imgVertex{
+        width: 70%;
+      }
+      .imgArrow{
+        width: 15%;
+      }
+
+
   }
 
