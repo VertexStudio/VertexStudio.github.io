@@ -66,7 +66,20 @@
 	<!------------------------styles for the web page----------------------------->
 	<link rel="stylesheet" href="style.css">
 	
+<style>
 
+	.core-height{
+		height: 600px;
+	}
+
+	@media only screen and (max-height: 900px){
+    /*Tablets [601px -> 1200px]*/
+	.core-height{
+		height: 200px;
+	}
+}
+ 
+</style>
 
 </head>
 
@@ -188,19 +201,32 @@
 </section>
 
 <section class="sectionCmpn rltv2"
-style="width:100%; height: auto; background-color:#ca2d78;position:relative; color:#FFFFFF ; padding: 10%, 0%,10%,0%;left: 0;">
+style="width:100%; height: auto; background-color:#ca2d78;position:relative; color:#FFFFFF ; padding: 10%, 0%,10%,0%;left: 0; background-image: url(Assets/Images/Elemento01.png);background-size: contain;background-repeat:no-repeat">
 
 <div class="container clearfix center ">
 	<div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px;">
 		<div class=" col-md-12">
 			<div class="team center">
 				<div class="center ">
-					<p style="font-size: 42 !important;"> 
-						OUR FLAGSHIP CORE <br>
-						TECHNOLOGIES ARE:</p>
-					
-				
+					<p  style="font-size:32px; color:#1b191d;line-height: 30px;" > 
+						<span style="font-weight: 800"> OUR </span > FLAGSHIP CORE <br>
+						TECHNOLOGIES <span style="font-weight: 800;"> ARE:</span></p>
 				</div>
+				<div style="background-image: url(Assets/Images/Simbiotic.png);width:50%;height:128px;background-size: contain;background-repeat:no-repeat;display:inline-block;margin-top: 25px;"></div>
+
+				<p style="font-size:32px; color:#1b191d;line-height: 30px;"  >Training humans and robots inside<br>
+				extended <span style="font-weight: 600;"> reality simulations.</span></p>
+
+				<div class="core-height"  style="background-image: url(Assets/Images/SimbioticFotos.png);width:75%;background-size: contain;background-repeat:no-repeat;display:inline-block;"></div>
+
+				<div style="background-image: url(Assets/Images/SugarFunge.png);width:auto;height:128px;background-size: contain;background-repeat:no-repeat;display:inline-block;padding:0px 19%"></div>
+
+				<p style="font-size:32px; color:#1b191d;line-height: 30px;" >Purpose-built blockchain <br>
+					for <span style="font-weight: 600;">private economies</span></p>
+
+					<div  class="core-height" style="background-image: url(Assets/Images/SugarFungeFotos.png);width:75%;background-size: contain;background-repeat:no-repeat;display:inline-block;padding:0px 19%;"></div>
+
+				
 			</div>
 		</div>
 	</div>
