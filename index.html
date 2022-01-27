@@ -1282,11 +1282,11 @@
 					</div>
 				</div>
 				<br>
-				<div class="container clearfix center">
+				<div class="container clearfix center" style="background:url(./Assets/Images/FondoNegro.png)">
 
 					<!-------------------------------Software Engineers------------------------------- -->
 
-					<div class="row justify-content-md-center" style="padding-bottom: 50px;">
+					<div class="row justify-content-md-center" style="padding-bottom: 50px; ">
 						<div class="col-6 col-md-3">
 							<div class="team-member borede">
 								<figure>
@@ -1833,21 +1833,16 @@
 				let width = window.innerWidth;
 				let wGreaterH = height > width;
 				let multiply;
-				console.log("objs", obj)
-
+ 
 				if (!wGreaterH) {
 					multiply = Math.floor(height / 9)-2
-					console.log("height",height," is greater value: ",multiply,"x")
-				} else {
+ 				} else {
 					multiply = Math.floor(width / 16)-2
-					console.log("width: ",width, " is greater value: ",multiply,"x")
-				}
+ 				}
 
-				console.log("before funca")
-				console.log("elements", obj)
+ 
 				obj.forEach((element) => {
-					console.log("funca")
-					element.style.height = `${(9 * multiply)/2}px`
+ 					element.style.height = `${(9 * multiply)/2}px`
 					element.style.width = `${(16 * multiply)/2}px`
 
 				});
@@ -1865,20 +1860,16 @@
 				let width = window.innerWidth;
 				let wGreaterH = height > width;
 				let multiply;
-				console.log("objs", obj)
-
+ 
 				if (!wGreaterH) {
 					multiply = Math.floor(height / 9)-2
-					console.log("height",height," is greater value: ",multiply,"x")
-				} else {
+ 				} else {
 					multiply = Math.floor(width / 16)-2
-					console.log("width: ",width, " is greater value: ",multiply,"x")
-				}
+ 				}
 
 	
 				obj.forEach((element) => {
-					console.log("funca")
-					element.style.height = `${(9 * multiply)/2}px`
+ 					element.style.height = `${(9 * multiply)/2}px`
 					element.style.width = `${(16 * multiply)/2}px`
 
 				});
