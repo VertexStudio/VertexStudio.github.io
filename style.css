@@ -7,6 +7,71 @@
     /*position:fixed;*/
     
 }
+@font-face {
+    font-family: CorbelBoldItalic;
+    src: url(./Assets/fonts/CorbelBoldItalic.ttf);
+  }
+  @font-face {
+    font-family: CorbelBold;
+    src: url(./Assets/fonts/corbeli.ttf);
+  }
+.teamContainer{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+ p.letrasR {
+    color:#ca2d78;
+    font-weight: 800;
+    font-size:16px;
+}
+
+h4.letrasR {
+    font-weight: 800;
+    font-size:16px;
+}
+
+.fatherBox{
+    background-color: #ca2d78;
+    
+    border-radius: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+    width:205px;
+    height: 205px;
+    margin-left: 28.75px;
+    
+}
+
+/*.childBox{
+    height: 98%;
+    width: 98%;
+    position: relative;    
+}*/
+
+.headerWhiteCorbel{
+    color:#fff; 
+    font-family: CorbelBoldItalic;
+    font-size: 80px;
+    line-height: 1 !important;
+}
+
+.headerPurpleCorbel{
+    color:#ca2d78 !important; 
+    font-family: CorbelBoldItalic;
+    font-size: 80px;
+    line-height: 1 !important;
+}
+
+
+.childBox > p{
+position:relative;
+top: 100%
+}
 
 .VertexColor{
     color:#EA297B !important;
