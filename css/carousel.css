@@ -30,6 +30,22 @@
   background-repeat: no-repeat;
 }
 
+.carousel-image-1{
+  background-image: url('./carousel_desktop/Slice5.svg');
+}
+
+.carousel-image-2{
+  background-image: url('./carousel_desktop/Slice6.svg');
+}
+
+.carousel-image-3{
+  background-image: url('./carousel_desktop/Slice7.svg');
+}
+
+.carousel-image-4{
+  background-image: url('./carousel_desktop/Slice8.svg');
+}
+
 .line-height-1{
   line-height: 1.4 !important;
 
@@ -111,6 +127,17 @@ html, body{
   margin-left: 5% ;
 }
 
+.text-padding-top{
+  padding: 30px;
+}
+
+.font-style{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.5;
+  
+}
+
 .text-vx-color{
   color: #dc297d;
 }
@@ -144,10 +171,29 @@ html, body{
   
 }
 
+#mc_embed_signup .button{
+  background-color: #19004f !important;
+}
+
+.get-in-touch-tittle {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.get-in-touch-sub-tittle
+{
+text-align: center;
+  margin-bottom: 50px;
+}
+
+.button {
+  background: linear-gradient(90deg, rgba(52,18,56,1) 0%, rgba(22,20,51,1) 80%); 
+}
 
 @media (max-width: 768px) {
   #carouselExampleFade{
-    height:40vh;
+    height:27vh;
     z-index: 0;
   }
 }
