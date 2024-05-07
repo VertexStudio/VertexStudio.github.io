@@ -103,12 +103,12 @@
 					<div id="logo">
 						<!--
 						<a href="#" data-href="#home" class="standard-logo" data-dark-logo="images/vertex/02-1-min.png"><img src="images/vertex/02-1-min.png" alt="VERTEX" style="width: 50%; height: auto; padding-top: 10%;"></a> -->
-						<a href="#" data-href="#home" class="standard-logo" data-dark-logo="images/vertex/isologo2-min.png"><img
-								src="images/vertex/isologo2-min.png" alt="VERTEX"
-								style="width: 50%; height: auto; padding-top: 10%;"></a>
-						<a href="#" data-href="#home" class="retina-logo" data-dark-logo="images/vertex/isologo2-min.png"><img
-								src="images/vertex/isologo2-min.png" alt="VERTEX"
-								style="width: 50%; height: auto; padding-top: 10%;"></a>
+						<a href="#" data-href="#home" class="standard-logo" data-dark-logo="./images/logo/vertex-logo-web.png"><img
+								src="./images/logo/vertex-logo-web.png" alt="VERTEX"
+								style="width: 30%; height: auto;;"></a>
+						<a href="#" data-href="#home" class="retina-logo" data-dark-logo="./images/logo/vertex-logo-web.png"><img
+								src="./images/logo/vertex-logo-web.png" alt="VERTEX"
+								style="width: 100%; height: auto; padding-top: 20%;"></a>
 
 					</div><!-- #logo end -->
 
@@ -122,30 +122,47 @@
 
 
 
-		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img class="d-block w-100 carousel-image-1" src="./images/carousel_mobile/Slice.svg" alt="First slide">
+
+
+		<div id="first-carousel" >
+			<div class="main-slider" style="text-align: center;">
+				<div class="main-slides">
+					<div id="slide-1">
+						<picture class="picture-100" >
+							<source media="(max-width: 768px)" srcset="./images/carousel_desktop/Slice5.svg">
+							<source media="(min-width: 767px)" srcset="./images/carousel_mobile/Slice.svg">
+							<img class="d-block w-100" src="./images/carousel_mobile/Slice.svg" alt="First slide">
+						</picture>
+					</div>
+					<div id="slide-2">
+						<picture class="picture-100">
+							<source media="(max-width: 768px)" srcset="./images/carousel_desktop/Slice6.svg">
+							<source media="(min-width: 767px)" srcset="./images/carousel_mobile/Slice1.svg">
+							<img class="d-block w-100" src="./images/carousel_mobile/Slice1.svg" alt="Second slide">
+						</picture>
+					</div>
+					<div id="slide-3">
+						<picture class="picture-100">
+							<source media="(max-width: 768px)" srcset="./images/carousel_desktop/Slice7.svg">
+							<source media="(min-width: 767px)" srcset="./images/carousel_mobile/Slice2.svg">
+							<img class="d-block w-100" src="./images/carousel_mobile/Slice2.svg" alt="Third slide">
+						</picture>
+					</div>
+					<div id="slide-4">
+						<picture class="picture-100">
+							<source media="(max-width: 768px)" srcset="./images/carousel_desktop/Slice8.svg">
+							<source media="(min-width: 767px)" srcset="./images/carousel_mobile/Slice3.svg">
+							<img class="d-block w-100" src="./images/carousel_mobile/Slice3.svg" alt="Fourth slide">
+						</picture>
+					</div>
 				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100 carousel-image-2"  src="./images/carousel_mobile/Slice1.svg" alt="Second slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100 carousel-image-3" src="./images/carousel_mobile/Slice2.svg" alt="Third slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100 carousel-image-4" src="./images/carousel_mobile/Slice3.svg" alt="Fourth slide">
-				</div>
+				<a href="#slide-1">o</a>
+				<a href="#slide-2">o</a>
+				<a href="#slide-3">o</a>
+				<a href="#slide-4">o</a>
 			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
 		</div>
+		
 
 
 
@@ -162,8 +179,8 @@
 							<div class=" col-md-12">
 								<div class="team center">
 									<div class="center ">
-										<div style="width: 100%; height: 100%;" class="paddingP">
-											<img src="images/logo/isologo-min.png">
+										<div class="   paddingP">
+											<img class="vertex-logo" src="images/logo/isologo-min.png">
 										</div>
 									</div>
 								</div>
@@ -188,7 +205,7 @@
 					style="width:100%; height: auto; background-color:#1b191d;position:relative; color:#FFFFFF ; padding: 10%, 0%,10%,0%;left: 0;">
 
 					<div class="container clearfix center ">
-						<div class="row justify-content-md-center" style="">
+						<div class="row justify-content-md-center">
 							<div class=" col-md-12">
 								<div class="team center">
 									<div class="center " style="padding-bottom:50px">
@@ -196,8 +213,8 @@
 
 											<p>We empower companies and</p>
 											<p>organizations to train AI models </p>
-											<p>with <span style="color: #dc297d;"> synthetic data</span> and</p>
-											<p><span style="color: #dc297d;">technical art</span>.</p>
+											<p>with <span style="color: #dc297d;"> Synthetic Data</span> and</p>
+											<p><span style="color: #dc297d;">Technical Art</span>.</p>
 
 
 									</div>
@@ -214,10 +231,10 @@
 					<div class=" clearfix center technologies-background ">
 						<div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px;">
 							
-							<h1> <span style="color:#6c63ff"> Synthetic Data </span> for </h1>
-							<h1>interactive Digital Twins and </h1>
-							<h1>training Vision Language </h1>
-							<h1>Models </h1>
+							<h1 class="bold-font" style="font-weight: 800; font-size: 32px;"> <span style="color:#6c63ff"> Synthetic Data </span> for 
+							interactive Digital Twins and 
+							training Vision Language 
+							Models </h1>
 
 						</div>
 						<div id="sub-text-synthetic-data">
@@ -233,51 +250,70 @@
 								
 							
 								<div class="slides">
-									<div id="slide-1">
+									<div id="sd-slide-1">
 										<img class="d-block w-100" src="./images/synthetic-data-carousel/VX_Syn_01_2.png" alt="First slide">
 									</div>
-									<div id="slide-2">
+									<div id="sd-slide-2">
 										<img class="d-block w-100" src="./images/synthetic-data-carousel/VX_Syn_02_2.png" alt="Second slide">
 									</div>
-									<div id="slide-3">
+									<div id="sd-slide-3">
 										<img class="d-block w-100" src="./images/synthetic-data-carousel/VX_Syn_03.png" alt="Third slide">
 									</div>
 									
 								</div>
-								<a href="#slide-1">o</a>
-								<a href="#slide-2">o</a>
-								<a href="#slide-3">o</a>
+								<a href="#sd-slide-1">o</a>
+								<a href="#sd-slide-2">o</a>
+								<a href="#sd-slide-3">o</a>
 							</div>
 						</div>
 
 						<div id="AI-Generative-Art" style="padding-bottom: 70px ;">
-							<h1 >
-								Unlocking the potential of 
-							</h1>
-							<h1>
-								 Generative AI Art
-							</h1>
-
-							<section id="content" style="font-family: 'Raleway', sans-serif;">
-								<div class="content-wrap nopadding">
-									<div id="border-gradient" style="">
-										<div class=" padding-item" style="width: 90%; display: inline-block;">
-											<img class=" round-image" src="./images/technology-and-creativity/BNR09209.jpg" alt="">
-										</div>
-										<div>
-											<p> Leveragin the latest advancements </p>
-											<p>in artificial intelligence, <span>  generative AI</span></p>
-											<p><span>art empowers creators</span> to unlock new</p>
-											<p>levels of innovation and expression.</p>
-										</div>
-									</div>
+							<div class="container-vx">
+								<div class="col-12 col-md-6">
+									<h1 class="display-block" style="font-weight: 800; font-size: 32px; margin-bottom: 5%;">
+										Unlocking the potential of Generative AI Art
+									</h1>
 								</div>
-								</section>
+		
+									<section id="content" class="col-12 col-md-6" style="font-family: 'Raleway', sans-serif;">
+										<div class="content-wrap nopadding">
+											<div id="border-gradient" >
+												<div id="first-carousel" style="padding: 20px 0;">
+													<div class="slider" id="sd-slider">
+						  
+														
+														
+													
+														<div class="slides">
+															<div id="sd-slide-1">
+																<img class="d-block w-100 generative-ai-carousel" src="./images/Generative-ai-art/1.png" alt="First slide">
+															</div>
+															<div id="sd-slide-2">
+																<img class="d-block w-100 generative-ai-carousel" src="./images/Generative-ai-art/2.png" alt="Second slide">
+															</div>
+															<div id="sd-slide-3">
+																<img class="d-block w-100 generative-ai-carousel" src="./images/Generative-ai-art/3.png" alt="Third slide">
+															</div>
+															
+														</div>
+														<a href="#sd-slide-1">o</a>
+														<a href="#sd-slide-2">o</a>
+														<a href="#sd-slide-3">o</a>
+													</div>
+												</div>
+												<div>
+													<p style="margin: 0px 5%;"> Leveraging the latest advancements 
+													in artificial intelligence, <span>  generative AI</span>
+													<span>art empowers creators</span> to unlock new
+													levels of innovation and expression.</p>
+												</div>
+											</div>
+										</div>
+									</section>
+							</div>
 
 								<div style="margin-top: 10%;">
-									<h1>Embracing the fusion of Real</h1>
-									<h1>and Virtual Worlds in</h1>
-									<h1>Simulation</h1>
+									<h1 style="font-weight: 800; font-size: 28px;" class="display-block">Advancing skills with Immersive Simulator Training</h1>
 								</div>
 
 								<section id="content" style="font-family: 'Raleway', sans-serif; margin-top: 10%;">
@@ -285,10 +321,7 @@
 										<div id="border-gradient" >
 											
 											<div>
-												<p class="text-align-left"> Join us in exploring the <span>limitless</span> </p>
-												<p class="text-align-left"> <span>potential of mixed reality</span> and</p>
-												<p class="text-align-left"> redefine the way you interact with </p>
-												<p class="text-align-left"> the world</p>
+												<p class="text-align-left display-block text-center-margin " > Cutting-edge approach that enables learners to enhance their skills through realistic and interactive simulations. </p>
 											</div>
 											<div class=" padding-item" style="width: 90%; display: inline-block;">
 												<img class=" round-image" src="./images/fusion-of-real-and-virtual-worlds/BNR09696.jpg" alt="">
@@ -300,18 +333,18 @@
 					</div>
 				</div>
 				<div>
-					<p class="display-block text-center text-padding-top font-style"> Embracing the fusion of 
-						<span class="text-vx-color"> Real </span> and <span class="text-vx-color"> Virtual </span> Words 
-						in <span class="text-vx-color"> Mixed </span> Reality.</p>
+					<h1 class="display-block text-center text-padding-top font-style"> Embracing the fusion of 
+						Real  and  Virtual  Words 
+						in Mixed  Reality.</h1>
 				</div>
 				<iframe style="width: 100%; height: 200px;" src="https://www.youtube.com/embed/djg-0iLBi3k?controls=1&loop=1&playlist=djg-0iLBi3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"  allowfullscreen></iframe>
 
 				<div style="height: auto; width:100%; padding-top: 70px; padding-bottom: 70px;">
 					<div style="align-content: center; align-items: center;">
-						<p class="text-center display-block" style="font-size: 32px; line-height: 1.5; font-weight: 800;"> Synthetic Data
+						<h1 class="text-center display-block" style="font-size: 32px; line-height: 1.5; font-weight: 800;"> Synthetic Data
 					driven  AI Pipelines 
 					for fast moving 
-					companies.</p>
+					companies.</h1>
 					</div>
 					<div>
 						<div class="svg-diagram"></div>
@@ -344,7 +377,7 @@
 						</h1>
 
 						<p class="display-block text-center" style="line-height: 1.6;">
-							A Journey into the future with
+							A journey into the future with
 							<span class="text-vx-color">State-of-the-Art Technologies</span>
 						</p>
 						<div class="col-6 col-md-2 align-center-heigh">
@@ -459,10 +492,10 @@
 
 	<div id="mc_embed_shell">
 		<h1 class="get-in-touch-tittle" > GET IN TOUCH </h1>
-		<p class="text-center">Have a question? Let's here it!</p>
+		<p class="text-center" style="font-weight: 800;">Have a question? Let us know!</p>
 		<link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-			#mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+			#mc_embed_signup{background:#fff; ;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
 			/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 				 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -482,7 +515,7 @@
 	</div>
 			<div class="optionalParent">
 					<div class=" foot">
-							<input type="submit" class="button" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+							<input type="submit" style="font-weight: 800;" class="button" name="subscribe" id="mc-embedded-subscribe" class="button" value="SEND MESSAGE">
 							<p style="margin: 0px auto;"><a href="http://eepurl.com/iPh6GE" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
 					</div>
 			</div>
