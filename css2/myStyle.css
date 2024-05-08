@@ -149,7 +149,7 @@ background-size: cover;
 
 @media (max-width: 576px){
 .fondo1{
-   background: rgb(33,33,33);
+   background: #141617;
 }
 }
 
@@ -437,7 +437,7 @@ background-size: cover;
 
 @media (max-width: 576px){
 .fondoF{
-   background: rgb(33,33,33);
+   background: #141617;
 }
 }
 
