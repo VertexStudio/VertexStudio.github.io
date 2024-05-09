@@ -485,6 +485,11 @@ body { font-family: sans-serif; }
     align-items: center;
   }
 
+  .diagram-section{
+    display: flex;
+    align-items: center;
+  }
+
   .margin-footer-33{
     margin: 0 17%;
     text-align: -webkit-center;
