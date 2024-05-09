@@ -696,13 +696,36 @@
 		
 	// });
 
-	Swal.fire({
+// Swal.fire({
+//     customClass: 'swal-body',
+//     html: `
+				
+//         <h2 class="alert-tittle" ">WE ARE AT <br> TECH DAY NYC!</h2>
+        
+//         <a href="https://calendly.com/alex-rozgo/20min" > <button id="confirm-btn" class="alert-button"> LET'S MEET! </button> </a>
+//         <br><br>
+//         <img src="./images/logo/vertex-logo-web.png" alt="Custom image" width="182" height="45">
+//     `,
+//     icon: 'warning',
+//     iconColor: '#6E276B',
+//     background: '#fff',
+//     showConfirmButton: false, // Disable default SweetAlert confirm button
+//     didOpen: () => {
+//         // Add event listener to custom button to close the SweetAlert
+//         document.getElementById('confirm-btn').addEventListener('click', () => {
+//             Swal.close();
+//         });
+//     }
+// });
+
+Swal.fire({
     customClass: 'swal-body',
     html: `
-				
-        <h2 style="color: #6E276B; font-size: 64px; font-weight: 800;">WE ARE AT <br> TECH DAY NYC!</h2>
-        <br>
-        <button id="confirm-btn" style="background-color: #3085d6; color: #fff; border: none; border-radius: 5px; padding: 10px 20px; font-size: 24px; background:#dc297d"> LET'S MEET! </button>
+        <button id="close-btn" style="position: absolute; top: 10px; right: 10px; background: transparent; border: none; font-size: 32px; cursor: pointer; color: #6E276B;">&times;</button>
+        <h2 class="alert-tittle">WE ARE AT <br> TECH DAY NYC!</h2>
+        <a href="https://calendly.com/alex-rozgo/20min">
+            <button id="confirm-btn" class="alert-button">LET'S MEET!</button>
+        </a>
         <br><br>
         <img src="./images/logo/vertex-logo-web.png" alt="Custom image" width="182" height="45">
     `,
@@ -712,6 +735,10 @@
     showConfirmButton: false, // Disable default SweetAlert confirm button
     didOpen: () => {
         // Add event listener to custom button to close the SweetAlert
+        document.getElementById('close-btn').addEventListener('click', () => {
+            Swal.close();
+        });
+
         document.getElementById('confirm-btn').addEventListener('click', () => {
             Swal.close();
         });
