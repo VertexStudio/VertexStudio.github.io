@@ -37,6 +37,8 @@
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 
 	<link rel="stylesheet" href="css2/social.css" type="text/css" />
 
@@ -274,14 +276,15 @@
 						</h1>
 				<iframe src="https://player.vimeo.com/video/944218866?h=e9efe7a9f9?loop=1&autopause=1&autoplay=1&muted=1&background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 				<div>
-					<h1 class="display-block text-center text-padding-top font-style"> Embracing the fusion of 
-						Real  and  Virtual  Words 
-						<span class="text-vx-color">in Mixed Reality </span></h1>
+					<h1 class="display-block text-center text-padding-top font-style">
+						Advancing skills with 
+						<span class="text-vx-color">Immersive Simulator Training</span></h1>
 				</div>		
 				
-				<iframe src="https://player.vimeo.com/video/944215518?h=93d55b8e39?loop=1&autopause=1&autoplay=1&muted=1&background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/944513973?h=61132f4cc7?loop=1&autopause=1&autoplay=1&muted=1&background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 				<div>
-					<h1 class="display-block text-center text-padding-top font-style"> Embracing the fusion of 
+					<h1 class="display-block text-center text-padding-top font-style"> 
+						Embracing the fusion of 
 						Real  and  Virtual  Words 
 						<span class="text-vx-color">in Mixed Reality </span></h1>
 				</div>				
@@ -300,10 +303,10 @@
 					for fast moving 
 					companies.</h1>
 					</div>
-					<div>
-						<div class="svg-diagram"></div>
-						<div>
-							<p  class="text-center display-block"> <span class="text-vx-color">Discover the future of AI training. </span> Our 
+					<div style="display: flex;">
+						<div class="svg-diagram col-med-12 col-sm-6"></div>
+						<div class="col-med-12 col-sm-6">
+							<p  class="text-center sd-driven-ai-pipelines "> <span class="text-vx-color">Discover the future of AI training. </span> Our 
 							 expertise in technical art transforms the 
 							way data is created, empowering your AI 
 							with precision and innovation. <span>Engage</span>
@@ -475,7 +478,11 @@
 					<div class=" foot">
 							<input type="submit" style="font-weight: 800;" class="button" name="subscribe" id="mc-embedded-subscribe" class="button" value="SEND MESSAGE">
 							<p style="margin: 0px auto;">
-								
+								<a href="http://eepurl.com/iPh6GE" title="Mailchimp - email marketing made easy and fun">
+									<span style="display: inline-block; background-color: transparent; border-radius: 4px;">
+										
+									</span>
+								</a>
 						</p>
 					</div>
 			</div>
@@ -676,6 +683,44 @@
 
 <script src="fixer.js"></script>
 <script>
+
+	// Swal.fire({
+	// 	className: "swal-body",
+	// 	title: "WE ARE AT \n TECH DAY NYC!",
+	// 	icon: "warning",
+	// 	background: "#fff",
+	// 	imageUrl: "./images/logo/vertex-logo-web.png",
+	// 	imageWidth: 273,
+	// 	imageHeight: 68,
+	// 	imageAlt: "Custom image"
+		
+	// });
+
+	Swal.fire({
+    customClass: 'swal-body',
+    html: `
+				
+        <h2 style="color: #6E276B; font-size: 64px; font-weight: 800;">WE ARE AT <br> TECH DAY NYC!</h2>
+        <br>
+        <button id="confirm-btn" style="background-color: #3085d6; color: #fff; border: none; border-radius: 5px; padding: 10px 20px; font-size: 24px; background:#dc297d"> LET'S MEET! </button>
+        <br><br>
+        <img src="./images/logo/vertex-logo-web.png" alt="Custom image" width="182" height="45">
+    `,
+    icon: 'warning',
+    iconColor: '#6E276B',
+    background: '#fff',
+    showConfirmButton: false, // Disable default SweetAlert confirm button
+    didOpen: () => {
+        // Add event listener to custom button to close the SweetAlert
+        document.getElementById('confirm-btn').addEventListener('click', () => {
+            Swal.close();
+        });
+    }
+});
+
+Swal()
+
+
 	window.addEventListener('resize', function () {
 		let obj = Array.from(document.getElementsByClassName("core-height"));
 		let height = window.innerHeight;
@@ -758,6 +803,8 @@
 
 	// Initialize the carousel with the first slide
 	showSlide(currentIndex);
+
+
 </script>
 
 
