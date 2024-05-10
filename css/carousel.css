@@ -368,7 +368,20 @@ body { font-family: sans-serif; }
 
 @media (min-width: 769px) {
 
+  .contact-us-container-image{
+    display: contents !important;
+  }
 
+  .contact-us-image{
+    width: 75% !important;
+    height: auto;
+    display: inline;
+  }
+  .fluid-width-video-wrapper{
+    width: 70% !important;
+    margin: 0px 15% !important;
+    padding-top: 38.5% !important;
+  }
   .logo-second-section{
     width: 45% !important;
   }
@@ -400,13 +413,13 @@ body { font-family: sans-serif; }
     height: 40vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 125% 125%;
+    background-size: 150% 150%;
   }
 
   .display-block{
   
     white-space: none;
-    padding: 4% 0px;
+    padding: 2%  0px  2%  0px;
     font-size: 48px ;
     
   
