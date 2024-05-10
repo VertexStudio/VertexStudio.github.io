@@ -369,6 +369,13 @@ body { font-family: sans-serif; }
 @media (min-width: 769px) {
 
 
+  .logo-second-section{
+    width: 45% !important;
+  }
+  
+  .second-section-font-size{
+    font-size: 32px !important;
+  }
 
   .alert-tittle{
     font-size: 48px  !important ;
@@ -537,6 +544,8 @@ body { font-family: sans-serif; }
 }
 
 @media (max-width: 768px) {
+
+
 
   .alert-tittle{
     font-size: 42px  !important ;
