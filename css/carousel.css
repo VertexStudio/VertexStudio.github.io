@@ -368,7 +368,11 @@ body { font-family: sans-serif; }
 
 @media (min-width: 769px) {
 
-
+  #logo{
+    width: 37%;
+    height: auto;
+    padding-top: 0.35%
+  }
 
   .overlay-text {
     position: absolute;
