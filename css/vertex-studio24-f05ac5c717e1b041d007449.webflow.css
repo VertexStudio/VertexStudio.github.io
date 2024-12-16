@@ -2634,7 +2634,7 @@ img {
 }
 
 .nav-menu-two-6 {
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 0;
   display: flex;
