@@ -1842,34 +1842,28 @@ img {
   overflow: hidden;
 }
 
-.linkedin {
+.linkedin,
+.instagram,
+.telegram,
+.vimeo,
+.contact-icon,
+.facebook {
   border: 1px solid #ec297b;
   border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease, width 0.3s ease;
 }
 
-.linkedin:hover {
-  background-color: #fff;
-  border-radius: 5px;
-}
-
-.instagram {
-  border: 1px solid #ec297b;
-  border-radius: 4px;
-}
-
+.linkedin:hover,
 .instagram:hover,
-.telegram:hover {
+.telegram:hover,
+.vimeo:hover,
+.contact-icon:hover,
+.facebook:hover {
   background-color: #fff;
   border-radius: 5px;
-}
-
-.correo {
-  border-radius: 0;
-}
-
-.correo:hover {
-  background-color: #fff;
-  border-radius: 6px;
+  border-color: #fff;
+  width: 30px;
+  transform: scale(1.05);
 }
 
 .page-padding {
@@ -2917,10 +2911,6 @@ img {
   align-items: center;
   gap: 25px;
   margin-bottom: 20px;
-}
-
-.lets-talk-contact > a {
-  /* text-decoration: none; */
 }
 
 .socials {
