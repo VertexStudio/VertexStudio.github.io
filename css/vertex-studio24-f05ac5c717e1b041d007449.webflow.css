@@ -746,7 +746,7 @@ img {
 }
 
 .product-section {
-  margin-top: 75px;
+  margin-top: 20px;
   margin-bottom: 0;
   padding-bottom: 40px;
 }
@@ -773,6 +773,7 @@ img {
   margin-top: 0;
   margin-bottom: 20px;
   margin-right: 0;
+  margin-left: 0;
 }
 
 .product-columns.sim {
@@ -930,7 +931,7 @@ img {
 }
 
 .product-text.rag-text {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-family: Axiforma, sans-serif;
   font-size: 14px;
 }
@@ -964,6 +965,22 @@ img {
   margin-bottom: 25px;
   font-size: 20px;
   line-height: 30px;
+}
+
+.div-block-28 {
+  width: 100%;
+}
+
+.div-block-28 > img {
+  width: 100%;
+}
+
+.div-block-26 {
+  margin-top: 20px;
+}
+
+.div-block-27 > img {
+  width: 100%;
 }
 
 .product-text.generative-title {
@@ -1643,6 +1660,11 @@ img {
 
 .games-title-container-2 {
   text-align: left;
+  padding: 0px 20px;
+}
+
+.extended-product {
+  height: 18rem;
 }
 
 .extendeedtitle-2 {
@@ -3136,6 +3158,10 @@ img {
     background-image: url("../images/Asset-2_1.png");
     background-position: 50%;
     background-size: cover;
+  }
+
+  .extended-product {
+    height: 18rem;
   }
 
   .team-member-image-2 {
@@ -4946,7 +4972,10 @@ img {
 
   .agentic-video.video-container,
   .generative-video.video-container,
-  .procedural-video.video-container {
+  .procedural-video.video-container,
+  .painting-video.video-container,
+  .simbotic-video.video-container,
+  .digital-twins-video.video-container {
     bottom: auto;
   }
 
@@ -5289,6 +5318,10 @@ img {
     /* margin-top: 20px; */
     /* margin-bottom: 40px; */
   }
+
+  .extended-product {
+    height: 18rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -5296,6 +5329,51 @@ img {
     background-image: url("../images/Background.jpg");
     background-position: 50% 0;
     background-size: auto;
+  }
+
+  .column-image.dt1 {
+    padding-right: 0;
+  }
+  .column-image.dt2 {
+    margin-top: 20px;
+    padding-left: 0;
+  }
+
+  .product-text.rag-text.p_s3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .column-image.edtech1 {
+    padding-right: 0;
+  }
+
+  .column-image.edtecdh2 {
+    margin-top: 20px;
+    padding-left: 0;
+  }
+
+  .extended-product {
+    height: auto;
+  }
+
+  .product-columns {
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    overflow: hidden;
+  }
+
+  .p_e3 {
+    margin-left: 0px;
+  }
+
+  .column-image.games.agentic1,
+  .column-image.games.agentic2,
+  .column-image.games.agentic3 {
+    padding: 0;
+    margin-bottom: 20px;
   }
 
   .our-core,
@@ -5503,12 +5581,12 @@ img {
     padding-right: 10px;
   }
 
-  .body-3 {
+  /* .body-3 {
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-  }
+  } */
 
   .title-games-section {
     margin-top: 8rem;
@@ -5525,7 +5603,11 @@ img {
     margin-top: 0;
   }
 
-  .product-container.rag-container {
+  .product-container.rag-container,
+  .product-container.painting-container,
+  .product-container.generative-container,
+  .product-container.agentic-container,
+  .product-container.procedural-container.games {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -6285,11 +6367,11 @@ img {
     margin-top: 30px;
   }
 
-  .product-section.generative-section {
+  /* .product-section.generative-section {
     margin-top: 0;
     padding-left: 15px;
     padding-right: 15px;
-  }
+  } */
 
   .product-section.procedural-section,
   .product-section.painting-section {
