@@ -1048,6 +1048,10 @@ img {
   line-height: 30px;
 }
 
+.rag-list {
+  margin-top: 1.5rem;
+}
+
 .agentic-image {
   margin-top: 15px;
 }
@@ -3597,7 +3601,7 @@ img {
 
   .product-text.text_games1.p_g2 {
     text-align: justify;
-    white-space: break-spaces;
+    /* white-space: break-spaces; */
     word-break: normal;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -4975,7 +4979,8 @@ img {
   .procedural-video.video-container,
   .painting-video.video-container,
   .simbotic-video.video-container,
-  .digital-twins-video.video-container {
+  .digital-twins-video.video-container,
+  .video-container {
     bottom: auto;
   }
 
