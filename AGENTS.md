@@ -9,6 +9,10 @@
 
 ## Build, Test, and Development Commands
 - Serve locally: `python3 -m http.server 8080` (from repo root). Visit `http://localhost:8080`.
+- Extensionless local routing: install `http-server` and use the `--ext` flag to resolve clean URLs without `.html` locally:
+  - `npm install -g http-server`
+  - `http-server -p 8000 --ext html`
+  - Visit `http://localhost:8000` and navigate using links without `.html` (e.g., `/about-us`, `/games`).
 - Quick link check: open DevTools Console and verify no 404/JS errors when navigating each page.
 - Vendor updates: keep Bootstrap files in `dist/` and third‑party libs in their folders; do not edit minified vendor files directly.
 
