@@ -208,8 +208,9 @@
                         transform: translateX(0);
                     }
                     @media (max-width: 767px) {
-                        .laia-section {
-                            flex-direction: column;
+                        .laia-section,
+                        .laia-section:nth-child(even) {
+                            flex-direction: column !important;
                             align-items: stretch;
                             gap: 1rem;
                         }
