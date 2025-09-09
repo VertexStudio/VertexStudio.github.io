@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es" data-wf-page="laia-es" data-wf-site="675b60e3f77d4fad0529e9eb">
     <head>
         <meta charset="utf-8" />
@@ -36,10 +36,18 @@
                         (n.className += t + "touch"));
             })(window, document);
         </script>
-        
+
         <link href="https://fonts.googleapis.com" rel="preconnect" />
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
-        <link rel="shortcut icon" href="images/vertex/favicon.ico" type="image/x-icon" />
+        <link
+            href="https://fonts.gstatic.com"
+            rel="preconnect"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="shortcut icon"
+            href="images/vertex/favicon.ico"
+            type="image/x-icon"
+        />
         <link href="images/vertex/favicon.ico" rel="apple-touch-icon" />
     </head>
     <body class="body body-3">
@@ -70,8 +78,14 @@
                                     images/vertex_white.png        1884w
                                 "
                         /></a>
-                        <nav role="navigation" class="nav-menu-wrapper-7 w-nav-menu">
-                            <ul role="list" class="nav-menu-two-6 w-list-unstyled">
+                        <nav
+                            role="navigation"
+                            class="nav-menu-wrapper-7 w-nav-menu"
+                        >
+                            <ul
+                                role="list"
+                                class="nav-menu-two-6 w-list-unstyled"
+                            >
                                 <li class="list-item-5 core-btn">
                                     <div
                                         data-delay="0"
@@ -79,20 +93,42 @@
                                         id="w-node-laia-core-dropdown"
                                         class="dropdown btn-nav w-dropdown"
                                     >
-                                        <div class="dropdown-toggle-2 w-dropdown-toggle">
-                                            <div class="icon-5 w-icon-dropdown-toggle"></div>
-                                            <div class="text-block-11">Nuestro Core</div>
+                                        <div
+                                            class="dropdown-toggle-2 w-dropdown-toggle"
+                                        >
+                                            <div
+                                                class="icon-5 w-icon-dropdown-toggle"
+                                            ></div>
+                                            <div class="text-block-11">
+                                                Nuestro Core
+                                            </div>
                                         </div>
-                                        <article class="dropdown-list w-dropdown-list">
-                                            <a href="/games" class="dropdown-link w-dropdown-link">Juegos</a>
-                                            <a href="/simulations" class="dropdown-link-3 w-dropdown-link">Simulaciones</a>
-                                            <a href="/extended-reality" class="dropdown-link-3 w-dropdown-link">Realidad Extendida</a>
+                                        <article
+                                            class="dropdown-list w-dropdown-list"
+                                        >
+                                            <a
+                                                href="/games"
+                                                class="dropdown-link w-dropdown-link"
+                                                >Juegos</a
+                                            >
+                                            <a
+                                                href="/simulations"
+                                                class="dropdown-link-3 w-dropdown-link"
+                                                >Simulaciones</a
+                                            >
+                                            <a
+                                                href="/extended-reality"
+                                                class="dropdown-link-3 w-dropdown-link"
+                                                >Realidad Extendida</a
+                                            >
                                         </article>
                                     </div>
                                 </li>
                                 <li class="list-item-5">
                                     <div class="btn-nav">
-                                        <a href="/about-us" class="nav-link-15">Acerca de</a>
+                                        <a href="/about-us" class="nav-link-15"
+                                            >Acerca de</a
+                                        >
                                     </div>
                                 </li>
                             </ul>
@@ -108,7 +144,9 @@
                     .btn-nav {
                         position: relative;
                         background: black;
-                        transition: background-color 0.3s ease, border 0.3s ease;
+                        transition:
+                            background-color 0.3s ease,
+                            border 0.3s ease;
                         text-align: center;
                         color: white;
                     }
@@ -118,12 +156,24 @@
                         inset: 0;
                         border-radius: 50px;
                         padding: 3px;
-                        background: linear-gradient(135deg, #27aae1, #462466 50%, #ec297b);
-                        mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+                        background: linear-gradient(
+                            135deg,
+                            #27aae1,
+                            #462466 50%,
+                            #ec297b
+                        );
+                        mask:
+                            linear-gradient(#000 0 0) content-box,
+                            linear-gradient(#000 0 0);
                         mask-composite: exclude;
                     }
                     .btn-nav:hover {
-                        background: linear-gradient(135deg, #27aae1, #462466 50%, #ec297b);
+                        background: linear-gradient(
+                            135deg,
+                            #27aae1,
+                            #462466 50%,
+                            #ec297b
+                        );
                         border-radius: 50px;
                         color: white;
                     }
@@ -198,7 +248,9 @@
                     .reveal {
                         opacity: 0;
                         transform: translateX(40px);
-                        transition: opacity 0.8s ease, transform 0.8s ease;
+                        transition:
+                            opacity 0.8s ease,
+                            transform 0.8s ease;
                     }
                     .from-left {
                         transform: translateX(-40px);
@@ -234,11 +286,16 @@
             <div class="w-embed w-script">
                 <script>
                     if (window.innerWidth <= 767) {
-                        let coreDropDown = document.getElementsByClassName("core-btn")[0];
-                        let contactDropDown = document.getElementsByClassName("contact-btn")[0];
+                        let coreDropDown =
+                            document.getElementsByClassName("core-btn")[0];
+                        let contactDropDown =
+                            document.getElementsByClassName("contact-btn")[0];
                         if (coreDropDown && contactDropDown) {
                             coreDropDown.addEventListener("touchstart", () => {
-                                const actualZIndex = window.getComputedStyle(contactDropDown).zIndex;
+                                const actualZIndex =
+                                    window.getComputedStyle(
+                                        contactDropDown,
+                                    ).zIndex;
                                 if (actualZIndex !== 1) {
                                     contactDropDown.style.zIndex = "1";
                                 }
@@ -251,62 +308,102 @@
 
         <section class="w-layout-blockcontainer laia-hero w-container">
             <img src="images/laia-logo.png" alt="LAIA Hub Creativo" />
-            <h1 class="laia-title">LAIA: Hub Creativo</h1>
+            <h1 class="laia-title">Hub Creativo</h1>
         </section>
 
         <div class="laia-sections">
             <section class="laia-section">
                 <div class="laia-col laia-img reveal from-left">
-                    <img src="images/laia/slide_01_bienvenido.png" alt="Bienvenido a LAIA" />
+                    <img
+                        src="images/laia/slide_01_bienvenido.png"
+                        alt="Bienvenido a LAIA"
+                    />
                 </div>
                 <div class="laia-col laia-text reveal from-right">
-                    La experiencia LAIA comienza desde el momento de tu llegada: nuestro asistente robótico te da la bienvenida a un espacio donde la tecnología del futuro se encuentra con la calidez humana.
+                    La experiencia LAIA comienza desde el momento de tu llegada:
+                    nuestro asistente robótico te da la bienvenida a un espacio
+                    donde la tecnología del futuro se encuentra con la calidez
+                    humana.
                 </div>
             </section>
             <section class="laia-section">
                 <div class="laia-col laia-img reveal from-left">
-                    <img src="images/laia/slide_05_espacios_ambientados.png" alt="Espacios Ambientados" />
+                    <img
+                        src="images/laia/slide_05_espacios_ambientados.png"
+                        alt="Espacios Ambientados"
+                    />
                 </div>
                 <div class="laia-col laia-text reveal from-right">
-                    Más de 500 m² de áreas tecnológicas diseñadas con espacios abiertos y ambientados que fomentan la creatividad, la colaboración y el intercambio de ideas en un entorno moderno y funcional.
+                    Más de 500 m² de áreas tecnológicas diseñadas con espacios
+                    abiertos y ambientados que fomentan la creatividad, la
+                    colaboración y el intercambio de ideas en un entorno moderno
+                    y funcional.
                 </div>
             </section>
             <section class="laia-section">
                 <div class="laia-col laia-img reveal from-left">
-                    <img src="images/laia/slide_08_especializados.png" alt="Espacios Especializados" />
+                    <img
+                        src="images/laia/slide_08_especializados.png"
+                        alt="Espacios Especializados"
+                    />
                 </div>
                 <div class="laia-col laia-text reveal from-right">
-                    LAIA cuenta con más de 523 m² de área general distribuida en espacios especializados que incluyen entrenamiento con gemelos digitales, capacitaciones en realidad virtual y estaciones de trabajo equipadas con inteligencia artificial.
+                    LAIA cuenta con más de 523 m² de área general distribuida en
+                    espacios especializados que incluyen entrenamiento con
+                    gemelos digitales, capacitaciones en realidad virtual y
+                    estaciones de trabajo equipadas con inteligencia artificial.
                 </div>
             </section>
             <section class="laia-section">
                 <div class="laia-col laia-img reveal from-left">
-                    <img src="images/laia/slide_10_espacios_privados.png" alt="Colaboración Humano-Robot-IA" />
+                    <img
+                        src="images/laia/slide_10_espacios_privados.png"
+                        alt="Colaboración Humano-Robot-IA"
+                    />
                 </div>
                 <div class="laia-col laia-text reveal from-right">
-                    En LAIA, el futuro es hoy: humanos, robots y sistemas de inteligencia artificial colaboran en un mismo espacio, creando un ecosistema único de innovación y productividad tecnológica.
+                    En LAIA, el futuro es hoy: humanos, robots y sistemas de
+                    inteligencia artificial colaboran en un mismo espacio,
+                    creando un ecosistema único de innovación y productividad
+                    tecnológica.
                 </div>
             </section>
             <section class="laia-section">
                 <div class="laia-col laia-img reveal from-left">
-                    <img src="images/laia/slide_15_simuladores.png" alt="Simuladores de última generación" />
+                    <img
+                        src="images/laia/slide_15_simuladores.png"
+                        alt="Simuladores de última generación"
+                    />
                 </div>
                 <div class="laia-col laia-text reveal from-right">
-                    Nuestros simuladores de última generación combinan la realidad física con experiencias virtuales inmersivas, proporcionando entrenamiento especializado en construcción, conducción, medicina y otras disciplinas técnicas con tecnología de punta.
+                    Nuestros simuladores de última generación combinan la
+                    realidad física con experiencias virtuales inmersivas,
+                    proporcionando entrenamiento especializado en construcción,
+                    conducción, medicina y otras disciplinas técnicas con
+                    tecnología de punta.
                 </div>
             </section>
             <section class="laia-section">
                 <div class="laia-col laia-img reveal from-left">
-                    <img src="images/laia/slide_20_estacionamiento.png" alt="Estacionamiento privado" />
+                    <img
+                        src="images/laia/slide_20_estacionamiento.png"
+                        alt="Estacionamiento privado"
+                    />
                 </div>
                 <div class="laia-col laia-text reveal from-right">
-                    LAIA revoluciona la experiencia del usuario desde el primer contacto, ofreciendo un estacionamiento privado con mayor seguridad, mejor control y más disponibilidad que los espacios tradicionales.
+                    LAIA revoluciona la experiencia del usuario desde el primer
+                    contacto, ofreciendo un estacionamiento privado con mayor
+                    seguridad, mejor control y más disponibilidad que los
+                    espacios tradicionales.
                 </div>
             </section>
         </div>
 
         <section class="footer-light-2">
-            <div id="w-node-laia-footer-divider" class="footer-divider-two-2"></div>
+            <div
+                id="w-node-laia-footer-divider"
+                class="footer-divider-two-2"
+            ></div>
             <div class="footer-copyright-2">
                 © 2025 Vertex Studio. All rights reserved
             </div>
@@ -322,25 +419,27 @@
         <script type="text/javascript">
             // Reveal on scroll using IntersectionObserver
             (function () {
-                const reveals = document.querySelectorAll('.reveal');
-                if (!('IntersectionObserver' in window) || reveals.length === 0) {
-                    reveals.forEach((el) => el.classList.add('visible'));
+                const reveals = document.querySelectorAll(".reveal");
+                if (
+                    !("IntersectionObserver" in window) ||
+                    reveals.length === 0
+                ) {
+                    reveals.forEach((el) => el.classList.add("visible"));
                     return;
                 }
                 const observer = new IntersectionObserver(
                     (entries) => {
                         entries.forEach((entry) => {
                             if (entry.isIntersecting) {
-                                entry.target.classList.add('visible');
+                                entry.target.classList.add("visible");
                                 observer.unobserve(entry.target);
                             }
                         });
                     },
-                    { threshold: 0.2 }
+                    { threshold: 0.2 },
                 );
                 reveals.forEach((el) => observer.observe(el));
             })();
         </script>
     </body>
-    
 </html>
