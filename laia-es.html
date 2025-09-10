@@ -141,6 +141,7 @@
             </div>
             <div class="w-embed">
                 <style>
+                    html { scroll-behavior: smooth; }
                     .btn-nav {
                         position: relative;
                         background: black;
@@ -243,7 +244,24 @@
                         letter-spacing: 0.06em;
                         text-transform: uppercase;
                         opacity: 0.85;
+                        display: flex;
+                        align-items: center;
+                        gap: 0.75rem;
                     }
+                    .laia-soon-link {
+                        text-transform: none;
+                        letter-spacing: 0;
+                        font-weight: 700;
+                        color: #fff;
+                        text-decoration: none;
+                        background: linear-gradient(135deg, #27aae1, #462466 50%, #ec297b);
+                        border-radius: 9999px;
+                        padding: 6px 12px;
+                        display: inline-block;
+                        line-height: 1;
+                        transition: filter 0.2s ease, transform 0.2s ease;
+                    }
+                    .laia-soon-link:hover { filter: brightness(1.05); transform: translateY(-1px); }
                     .laia-sections {
                         width: 100%;
                         max-width: 1200px;
@@ -332,13 +350,24 @@
                             });
                         }
                     }
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var link = document.querySelector('.laia-soon-link');
+                        var target = document.getElementById('suscribete');
+                        if (link && target) {
+                            link.addEventListener('click', function(e) {
+                                e.preventDefault();
+                                try { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+                                catch (err) { window.location.hash = '#suscribete'; }
+                            });
+                        }
+                    });
                 </script>
             </div>
         </div>
 
         <section class="w-layout-blockcontainer laia-hero w-container">
             <img src="images/laia-logo.png" alt="LAIA Hub Creativo" />
-            <div class="laia-soon">Próximamente</div>
+            <div class="laia-soon">Próximamente <a href="#suscribete" class="laia-soon-link">Suscríbete</a></div>
             <h1 class="laia-title">LAIA: Hub Creativo</h1>
         </section>
 
@@ -427,8 +456,8 @@
             </section>
         </div>
 
-        <section class="laia-cta w-container">
-            <h2 class="laia-cta-title">Suscríbete al boletín de LAIA</h2>
+        <section id="suscribete" class="laia-cta w-container">
+            <h2 class="laia-cta-title"><span class="highlight">¡Suscríbete</span> al boletín de LAIA y mantente a la vanguardia de la innovación, donde humanos, robots e IA crean el futuro juntos!</h2>
             <a
                 class="laia-cta-btn w-button"
                 href="https://forms.gle/YTBuNWJLeLxu9MYj7"
