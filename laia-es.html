@@ -141,7 +141,9 @@
             </div>
             <div class="w-embed">
                 <style>
-                    html { scroll-behavior: smooth; }
+                    html {
+                        scroll-behavior: smooth;
+                    }
                     .btn-nav {
                         position: relative;
                         background: black;
@@ -197,7 +199,12 @@
                         display: inline-block;
                         padding: 12px 24px;
                         border-radius: 50px;
-                        background: linear-gradient(135deg, #27aae1, #462466 50%, #ec297b);
+                        background: linear-gradient(
+                            135deg,
+                            #27aae1,
+                            #462466 50%,
+                            #ec297b
+                        );
                         color: #fff;
                         text-decoration: none;
                         font-weight: 600;
@@ -254,14 +261,24 @@
                         font-weight: 700;
                         color: #fff;
                         text-decoration: none;
-                        background: linear-gradient(135deg, #27aae1, #462466 50%, #ec297b);
+                        background: linear-gradient(
+                            135deg,
+                            #27aae1,
+                            #462466 50%,
+                            #ec297b
+                        );
                         border-radius: 9999px;
                         padding: 6px 12px;
                         display: inline-block;
                         line-height: 1;
-                        transition: filter 0.2s ease, transform 0.2s ease;
+                        transition:
+                            filter 0.2s ease,
+                            transform 0.2s ease;
                     }
-                    .laia-soon-link:hover { filter: brightness(1.05); transform: translateY(-1px); }
+                    .laia-soon-link:hover {
+                        filter: brightness(1.05);
+                        transform: translateY(-1px);
+                    }
                     .laia-sections {
                         width: 100%;
                         max-width: 1200px;
@@ -350,14 +367,20 @@
                             });
                         }
                     }
-                    document.addEventListener('DOMContentLoaded', function() {
-                        var link = document.querySelector('.laia-soon-link');
-                        var target = document.getElementById('suscribete');
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var link = document.querySelector(".laia-soon-link");
+                        var target = document.getElementById("suscribete");
                         if (link && target) {
-                            link.addEventListener('click', function(e) {
+                            link.addEventListener("click", function (e) {
                                 e.preventDefault();
-                                try { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
-                                catch (err) { window.location.hash = '#suscribete'; }
+                                try {
+                                    target.scrollIntoView({
+                                        behavior: "smooth",
+                                        block: "start",
+                                    });
+                                } catch (err) {
+                                    window.location.hash = "#suscribete";
+                                }
                             });
                         }
                     });
@@ -367,7 +390,10 @@
 
         <section class="w-layout-blockcontainer laia-hero w-container">
             <img src="images/laia-logo.png" alt="LAIA Hub Creativo" />
-            <div class="laia-soon">Próximamente <a href="#suscribete" class="laia-soon-link">Suscríbete</a></div>
+            <div class="laia-soon">
+                Próximamente
+                <a href="#suscribete" class="laia-soon-link">Suscríbete</a>
+            </div>
             <h1 class="laia-title">LAIA: Hub Creativo</h1>
         </section>
 
@@ -380,7 +406,13 @@
                     />
                 </div>
                 <div class="laia-col laia-text reveal from-right">
-                    LAIA - Hub Creativo es el primer centro tecnológico de El Salvador donde humanos, robots e inteligencia artificial colaboran en un mismo espacio. Ofrece laboratorios especializados, simuladores de realidad virtual, gemelos digitales y capacitaciones para empresas que buscan desarrollo de productos y experiencias tecnológicas de vanguardia.
+                    LAIA - Hub Creativo es el primer centro tecnológico de El
+                    Salvador donde humanos, robots e inteligencia artificial
+                    colaboran en un mismo espacio. Ofrece laboratorios
+                    especializados, simuladores de realidad extendida, gemelos
+                    digitales y capacitaciones para empresas que buscan
+                    desarrollo de productos y experiencias tecnológicas de
+                    vanguardia.
                 </div>
             </section>
             <section class="laia-section">
@@ -407,7 +439,7 @@
                 <div class="laia-col laia-text reveal from-right">
                     LAIA cuenta con más de 523 m² de área general distribuida en
                     espacios especializados que incluyen entrenamiento con
-                    gemelos digitales, capacitaciones en realidad virtual y
+                    gemelos digitales, capacitaciones en realidad extendida y
                     estaciones de trabajo equipadas con inteligencia artificial.
                 </div>
             </section>
@@ -457,13 +489,18 @@
         </div>
 
         <section id="suscribete" class="laia-cta w-container">
-            <h2 class="laia-cta-title"><span class="highlight">¡Suscríbete</span> al boletín de LAIA y mantente a la vanguardia de la innovación, donde humanos, robots e IA crean el futuro juntos!</h2>
+            <h2 class="laia-cta-title">
+                <span class="highlight">¡Suscríbete</span> al boletín de LAIA y
+                mantente a la vanguardia de la innovación, donde humanos, robots
+                e IA crean el futuro juntos!
+            </h2>
             <a
                 class="laia-cta-btn w-button"
                 href="https://forms.gle/YTBuNWJLeLxu9MYj7"
                 target="_blank"
                 rel="noopener noreferrer"
-            >Suscribirme</a>
+                >Suscribirme</a
+            >
         </section>
 
         <section class="footer-light-2">
