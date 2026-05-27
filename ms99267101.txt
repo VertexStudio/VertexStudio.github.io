@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "vrx.group",
+  "Id": "e0ee3c6a-4f58-4f66-8de4-253226eeed5f"
+}
